@@ -1,19 +1,22 @@
 <div class="container">
 	<div class="jumbotron">
 			<h2>Who is Alek?<h2>
-				<p><small>Good question! I am a motivated guy that enjoys solving problems in creative ways. I really love to learn and I really enjoy getting to know new people (seriously!). I am intuitive and love to think and learn about human behavior.
+				<p><small>Good question! I am a motivated guy that enjoys solving problems in creative ways. I really love to learn and I really enjoy getting to know new people (seriously!). I'm intuitive and love to read about human behavior, business and science.
 				</small></p>
 	</div>
 	<div class="panel panel-default">
   	<div class="panel-body">
   		<h2>Why Development?</h2>
-    	<p class-"lead">Good</p>
+    	<h4><p class="lead">I want to learn how to code for many reasons. First, I want to create. Before a product is positioned, marketed and sold, it's the technology team (or person) that defines what the product can and will be. I'm quite creative and have plenty of apps that I'd love to bring into existence, some that can turn into a business, some because I think they'd be fun to give away. Second, I want to become a leader in the media and internet space, I need to know the nuts and bolts, not just theory. Third, I like solving problems, I like to tinker with things and find solutions. I'll be learning my entire life, might as well put that effort into learning how to make things. I like math. I like logic. I like community and amazed by how developers support each other. There's a greater sense of purpose for a lot of people, I'd like to be a part of it.</p></h4>
   	</div>
 	</div>
 	<div class="panel panel-default">
   	<div class="panel-body">
   		<h2>Work</h2>
-    	<p class-"lead">I've worked as a Marketing Manager at 3 start-ups, two of which I co-founded. </p>
+    	<h4><em>I've worked as a Marketing Manager at 3 start-ups, two of which I co-founded.</em></h4>
+      <p class="lead"> At <strong>Rise Above Marketing</strong>, I served as the Marketing Director. What started as two tech guys and I, grew to a team of 15. I worked closely with developers on every projects and managed several myself. SimpleTexting was the last web app we built together.
+      <p class="lead"> At <strong>AffiliateNetwork.com</strong> I managed a team of publisher sales reps. We bough media for propreitary web properties. I often met with the CTO to discuss changes to our products and troubleshoot publisher problems.
+      <p class="lead"><strong>Oxeo.com</strong> Was a managed web hosting service that started in my parents spare bedroom and grew to $1 million dollars in annual revenue in 3 years time. I was 22.
     	<div class="media">
 			  <a class="pull-left" href="#">
 			    <img class="media-object" src="http://simpletexting.com/wp-content/themes/simpletexting-2.1/images/app-iphone.png" height=150px width=180px alt="SimpleTexting app">
@@ -28,7 +31,7 @@
 	<div class="panel panel-default">
   	<div class="panel-body">
   		<h2>Education</h2>
-    	<p class-"lead">Good</p>
+    	<p class="lead"> Good</p>
     	<table class="table" id="books_list">
     		<tr>
     			<td><strong>Baruch College</strong></td><td><strong>BBA</strong></td><td>2004</td>
@@ -68,39 +71,116 @@
 			</table>
   	</div>
 	</div>
-	<div class="panel panel-default">
-  	<div class="panel-body">
+  <div class="panel panel-default">
+    <div class="panel-body">
   		<h2>Hobbies</h2>
-    	<h4>Snowboarding, Cycling, Yoga, Investing, Business, Networking</h4><p class-"lead">Good</p>
-    	<table>
+    	<h4><em>Snowboarding, Cycling, Yoga, Investing, Business, Networking</em></h4>
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div id="sbLightbox" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="lightbox-content">
+                <%= image_tag("snowboard.jpg", alt: "snowboard") %>
+                <div class="lightbox-caption">
+                <p>Powder is Sweet!</p>
+                </div>
+              </div>
+          </div>
+         </div>
+        </div>
+       </div> 
+       <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div id="clLightbox" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="lightbox-content">
+                <%= image_tag("cycling.jpg", alt: "cycling") %>
+                <div class="lightbox-caption">
+                <p>Movin Fast!</p>
+                </div>
+              </div>
+          </div>
+         </div>
+        </div>
+       </div> 
+       <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div id="clLightbox" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="lightbox-content">
+                <%= image_tag("yoga.jpg", alt: "yoga") %>
+                <div class="lightbox-caption">
+                <p>Breathe!</p>
+                </div>
+              </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div id="clLightbox" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="lightbox-content">
+                <%= image_tag("investing.jpg", alt: "investing") %>
+                <div class="lightbox-caption">
+                <p>What are the Fundamentals?</p>
+                </div>
+              </div>
+          </div>
+         </div>
+        </div>
+       </div>    
+      <table>
     		<tr>
     			<td>
           	<div class="row">
               <div class="col-xs-6 col-md-3">
-                <a href="#" class="thumbnail">
-                  <%= image_tag("snowboard.jpg", alt: "snowboard") %>      
+                <a data-toggle="lightbox" href="#sbLightbox" class="span2 thumbnail">
+                  <%= image_tag("snowboard.jpg", alt: "snowboard") %>    
                   </a>
                 </div>
-        </div>
-    			<td>
-			  		<div class="row">
-			  			<div class="col-xs-6 col-md-3">
-			    			<a href="#" class="thumbnail">
-			     				 <img data-src="/assets/snowboard.jpg" alt="snowboard image">
-			    			</a>
-          <td>
-            <div class="row">
-              <div class="col-xs-6 col-md-3">
-                <a href="#" class="thumbnail">
-                  <img data-src="holder.js/100%x180" alt="...">
-                </a>
-            </div>
-  ...
-</div>
-
-	    		</td>
+              </div>	
+	    		   </td>
+             <td>
+              <div class="row">
+                <div class="col-xs-6 col-md-3">
+                  <a data-toggle="lightbox" href="#clLightbox" class="span2 thumbnail">
+                    <%= image_tag("cycling.jpg", alt: "cycling") %>    
+                  </a>
+                </div>
+              </div>  
+             </td>
+             <td>
+              <div class="row">
+                <div class="col-xs-6 col-md-3">
+                  <a data-toggle="lightbox" href="#ygLightbox" class="span2 thumbnail">
+                    <%= image_tag("yoga.jpg", alt: "yoga") %>    
+                  </a>
+                </div>
+              </div>  
+             </td>
+             <td>
+              <div class="row">
+                <div class="col-xs-6 col-md-3">
+                  <a data-toggle="lightbox" href="#ivLightbox" class="span2 thumbnail">
+                    <%= image_tag("investing.jpg", alt: "investing") %>    
+                  </a>
+                </div>
+              </div>  
+             </td>
+           </tr>
+         </table>
 				</div>
   		</div>
   	</div>
 	</div>
+</div>
+<div id="sbLightbox" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="lightbox-content">
+      <%= image_tag("snowboard.jpg", alt: "snowboard") %> 
+      <div class="lightbox-caption">
+      <p>Powder is Sweet!</p>
+      </div>
+    </div>
 </div>
